@@ -18,7 +18,7 @@ export default function Page() {
 
   return (
     <div className="max-w-[440px] h-screen mx-auto bg-black flex flex-col justify-start items-center">
-      {room ? <Chat /> : <Room />}
+      {isChat ? <Chat /> : <Room />}
     </div>
   );
 }
